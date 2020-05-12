@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "fightisland",
+    "password": "QVdTqt3pE5mxJxh",
+    "database": "FightIsland",
+    "host": "107.180.0.243",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "fight_island",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "fight_island",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
