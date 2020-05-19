@@ -1,5 +1,5 @@
 const blogsService = require("../services/blogs.service");
-
+/*
 exports.getBlogData = async (req, res) => {  
   let result = "";
   try {
@@ -15,7 +15,7 @@ exports.getBlogData = async (req, res) => {
       data: result
     });
   }
-};
+};*/
 
 exports.createBlog = async (req, res) => {
   let result = "";
