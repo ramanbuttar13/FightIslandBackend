@@ -1,6 +1,12 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const reaction = sequelize.define('reaction', {
+    id: {
+      allowNull: false,
+      autoIncrement: true,
+      primaryKey: true,
+      type: DataTypes.INTEGER.UNSIGNED,
+    },
     reaction: DataTypes.INTEGER,
     user_id: DataTypes.INTEGER,
     blog_id: DataTypes.INTEGER,
